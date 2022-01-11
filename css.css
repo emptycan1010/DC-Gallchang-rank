@@ -1,0 +1,163 @@
+
+@font-face{
+    font-family:"Jolly";
+    src: URL('file:///C:/NanumGothic_Coding.ttf');
+}
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+html{
+    text-align:center;
+    -webkit-background-size:80px 80px;
+    -moz-background-size:80px 80px;
+    -o-background-size:80px 80px;
+    background-size:80px 80px;
+    background-image:-webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(25%, rgba(0,0,0,0.1)), color-stop(25%, rgba(0,0,0,0)), color-stop(50%, rgba(0,0,0,0)), color-stop(50%, rgba(0,0,0,0.1)), color-stop(75%, rgba(0,0,0,0.1)), color-stop(75%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0)));
+    background-image:-webkit-linear-gradient(left top, rgba(0,0,0,0.1) 25%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.1) 50%,rgba(0,0,0,0.1) 75%,rgba(0,0,0,0) 75%,rgba(0,0,0,0));
+    background-image:-moz-linear-gradient(left top, rgba(0,0,0,0.1) 25%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.1) 50%,rgba(0,0,0,0.1) 75%,rgba(0,0,0,0) 75%,rgba(0,0,0,0));
+    background-image:-o-linear-gradient(left top, rgba(0,0,0,0.1) 25%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.1) 50%,rgba(0,0,0,0.1) 75%,rgba(0,0,0,0) 75%,rgba(0,0,0,0));
+    background-image:linear-gradient(left top, rgba(0,0,0,0.1) 25%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.1) 50%,rgba(0,0,0,0.1) 75%,rgba(0,0,0,0) 75%,rgba(0,0,0,0));
+    background-color:#2a2a2a
+}
+table {
+    margin-left:auto; 
+    margin-right:auto;
+	text-align:center;
+}
+th {
+    margin-left:auto; 
+    margin-right:auto;
+	text-align:center;
+}
+h3{
+    font-family:'Jolly';
+    font-weight:normal;
+	 color: white;
+    text-align:center;
+    font-size:3em;
+    margin:0em 0em;
+    font-weight:bold;
+  margin-bottom: 0; padding-bottom: 0;
+  background: -webkit-linear-gradient(lightgray ,white,gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+h2{
+  font: bolder 22px "Jolly";
+
+   background: -webkit-linear-gradient(top, rgba(207, 207, 207, 1)0%, rgba(197, 197, 197, 1)26%, rgba(230, 230, 230, 1) 35%, rgba(207, 207, 207, 1) 45%, rgba(217, 217, 217, 1) 61%, rgba(207, 207, 207, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 3px rgba(255,255,255,0.5) ;
+  line-height: 15x;
+  paint-order: stroke fill;
+    margin:0em 0 .0em;
+    padding:0;
+ white-space:pre-wrap;
+  margin-bottom: 0; padding-bottom: 0;
+
+}
+h4{
+  font: normal 20px "Jolly";
+      margin:0em 0em;
+	  line-height:1.2;
+	    text-align:right;
+  margin-bottom: 0; padding-bottom: 0;
+      text-shadow: 0 0 5px rgba(225,25,25,1);
+
+}
+ta{
+  font: normal 13px "Jolly";
+      margin:0em 0em;
+	  line-height:1.2;
+	    text-align:center;
+  margin-bottom: 0; padding-bottom: 0;
+
+}
+golda{
+  font: normal 13px "Jolly";
+      margin:0em 0em;
+	  line-height:1.2;
+	    text-align:center;
+  margin-bottom: 0; padding-bottom: 0;
+
+background: -webkit-linear-gradient(transparent, transparent),
+-webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+background: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    text-shadow: 0 0 1px rgba(255,255,24,0.6) ;
+}
+h6{
+  font: normal 20px "Jolly";
+      margin:0em 0em;
+	  line-height:1.2;
+	    text-align:right;
+  margin-bottom: 0; padding-bottom: 0;
+      text-shadow: 0 0 5px rgba(21, 135, 229,1);
+
+}
+h1{
+  font: bolder 25px "Jolly";
+
+color:	#D5AD6D; /*if no support for background-clip*/
+background: -webkit-linear-gradient(transparent, transparent),
+-webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+background: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    text-shadow: 0 0 3px rgba(255,255,24,0.6) ;
+  line-height: 15x;
+  paint-order: stroke fill;
+
+ white-space:pre-wrap;
+  margin-bottom: 0; padding-bottom: 0;
+
+}
+smallh1{
+  font: bolder 18px "Jolly";
+
+color:	#D5AD6D; /*if no support for background-clip*/
+background: -webkit-linear-gradient(transparent, transparent),
+-webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+background: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    text-shadow: 0 0 1px rgba(255,255,24,1) ;
+  line-height: 15x;
+  paint-order: stroke fill;
+
+ white-space:pre-wrap;
+  margin-bottom: 0; padding-bottom: 0;
+
+}
+header p:first-child{
+	-webkit-text-stroke: 5px rgb(66,101,208);
+
+    font-style:normal;
+    text-transform:uppercase;
+    font-family:"Jolly", sans;
+    display:block;
+
+    color:white;
+    
+    margin:1em 0 .3em;
+    padding:0;
+    font-size:1.8em
+}
+header p:first-child:before,header p:first-child:after{
+    content:' ';
+	color:white
+    width:4.5em;
+    height:1px;
+    display:inline-block;
+    border-bottom:1px solid #888;
+    position:relative;
+    top:-0.35em;
+    margin:0 .5em
+}
+
